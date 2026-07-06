@@ -32,7 +32,7 @@ Aclaro, por si hace falta: **todo es simulado**. El índice de tostado es un pro
 
 Hagamos algo peor. Supongamos que no solo mido el tostado: mido mil variables de mi cocina. El tiempo que tarda la cafetera, la inclinación de la mantequilla al untarla, cuántas migas caen al plato. Mil series aleatorias, generadas sin ninguna relación con el clima, y todas correlacionadas contra la misma temperatura.
 
-El resultado debería incomodarnos: el **77%** de esas variables resulta "estadísticamente significativa" al nivel usual de $p < 0.05$, y casi el 40\% supera $|r| > 0.3$. La mejor de todas alcanza $r = -0.80$ con un p-valor del orden de $10^{-82}$. Si yo publicara solamente esa variable ganadora —y olvidara convenientemente las otras 999—, tendría un "descubrimiento" espectacular.
+El resultado debería incomodarnos: el **77%** de esas variables resulta "estadísticamente significativa" al nivel usual de $p < 0.05$, y casi el 40% supera $\vert r \vert > 0.3$. La mejor de todas alcanza $r = -0.80$ con un p-valor del orden de $10^{-82}$. Si yo publicara solamente esa variable ganadora —y olvidara convenientemente las otras 999—, tendría un "descubrimiento" espectacular.
 
 <p style="text-align:center;">
   <img src="{{ '/Figures/DredgingHist.png' | relative_url }}"
@@ -48,7 +48,7 @@ Pero hay algo más profundo aquí, y es mi parte favorita. ¿Por qué la correla
 
 La respuesta está en la **memoria**. Tanto el índice de tostado como la temperatura son series persistentes: el valor de hoy se parece al de ayer. Y cuando dos series tienen memoria larga, la correlación de Pearson entre ellas deja de comportarse como esperamos. Los grados de libertad efectivos son muchos menos que los 365 aparentes, y el azar produce correlaciones enormes con total facilidad.
 
-El caso extremo es la caminata aleatoria. Si genero dos caminatas completamente independientes —puro azar acumulado— y las correlaciono, la mediana de $|r|$ que obtengo no es cero: es **0.43**. Y más del 40% de los pares supera $|r| > 0.5$. No es difícil encontrar pares con $r = 0.90$ que, puestos en una gráfica, parecen series gemelas.
+El caso extremo es la caminata aleatoria. Si genero dos caminatas completamente independientes —puro azar acumulado— y las correlaciono, la mediana de $\vert r \vert$ que obtengo no es cero: es **0.43**. Y más del 40% de los pares supera $\vert r \vert > 0.5$. No es difícil encontrar pares con $r = 0.90$ que, puestos en una gráfica, parecen series gemelas.
 
 <p style="text-align:center;">
   <img src="{{ '/Figures/RandomWalks.png' | relative_url }}"
