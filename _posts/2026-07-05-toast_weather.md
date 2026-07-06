@@ -32,7 +32,7 @@ Aclaro, por si hace falta: **todo es simulado**. El índice de tostado es un pro
 
 Hagamos algo peor. Supongamos que no solo mido el tostado: mido mil variables de mi cocina. El tiempo que tarda la cafetera, la inclinación de la mantequilla al untarla, cuántas migas caen al plato. Mil series aleatorias, generadas sin ninguna relación con el clima, y todas correlacionadas contra la misma temperatura.
 
-El resultado debería incomodarnos: el **77%** de esas variables resulta "estadísticamente significativa" al nivel usual de $p < 0.05$, y casi el 40% supera $|r| > 0.3$. La mejor de todas alcanza $r = -0.80$ con un p-valor del orden de $10^{-82}$. Si yo publicara solamente esa variable ganadora —y olvidara convenientemente las otras 999—, tendría un "descubrimiento" espectacular.
+El resultado debería incomodarnos: el **77%** de esas variables resulta "estadísticamente significativa" al nivel usual de $p < 0.05$, y casi el 40\% supera $|r| > 0.3$. La mejor de todas alcanza $r = -0.80$ con un p-valor del orden de $10^{-82}$. Si yo publicara solamente esa variable ganadora —y olvidara convenientemente las otras 999—, tendría un "descubrimiento" espectacular.
 
 <p style="text-align:center;">
   <img src="{{ '/Figures/DredgingHist.png' | relative_url }}"
