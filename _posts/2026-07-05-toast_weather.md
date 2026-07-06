@@ -56,7 +56,7 @@ El caso extremo es la caminata aleatoria. Si genero dos caminatas completamente 
        style="width:85%; height:auto;">
 </p>
 
-Este fenómeno no es nuevo. Udny Yule lo describió en 1926 en un artículo con un título maravilloso: *Why do we sometimes get nonsense-correlations between time-series?* (Yule, G. U. (1926). Why do we sometimes get nonsense-correlations between Time-Series?--a study in sampling and the nature of time-series. Journal of the royal statistical society, 89(1), 1-63. https://doi.org/10.2307/2341482). Un siglo después seguimos tropezando con la misma piedra, ahora con más datos y mejores gráficas. Quien quiera una colección moderna y deliciosa de estos disparates puede visitar el proyecto [Spurious Correlations](https://www.tylervigen.com/spurious-correlations) de Tyler Vigen, donde el consumo de queso per cápita correlaciona con las muertes por enredarse en las sábanas.
+Este fenómeno no es nuevo. Udny Yule lo describió en 1926 en un artículo con un título maravilloso: *Why do we sometimes get nonsense-correlations between time-series?* (Yule, G. U. (1926). Why do we sometimes get nonsense-correlations between Time-Series?--a study in sampling and the nature of time-series. Journal of the royal statistical society, 89(1), 1-63. [Yule paper](https://doi.org/10.2307/2341482)). Un siglo después seguimos tropezando con la misma piedra, ahora con más datos y mejores gráficas. Quien quiera una colección moderna y deliciosa de estos disparates puede visitar el proyecto [Spurious Correlations](https://www.tylervigen.com/spurious-correlations) de Tyler Vigen, donde el consumo de queso per cápita correlaciona con las muertes por enredarse en las sábanas.
 
 ## La prueba de fuego: predecir el futuro
 
